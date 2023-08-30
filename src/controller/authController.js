@@ -1,5 +1,5 @@
-import { UserModel } from "../model/User";
-import { registerValidation, loginValidation } from "../utils/validation";
+import { UserModel } from "../model/User.js";
+import { registerValidation, loginValidation } from "../utils/validation.js";
 import bcrypt from "bcrypt";
 import jwt from "jsonwebtoken";
 

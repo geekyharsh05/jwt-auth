@@ -1,8 +1,8 @@
 import express from "express";
 import dotenv from "dotenv";
-import authRoute from "./routes/auth.js";
-import postRoute from "./routes/posts.js";
-import dbConnect from "./db/Connection.js";
+import { router as authRoute } from "./routes/auth.js";
+import { router as postRoute } from "./routes/posts.js";
+import { dbConnect } from "./db/Connection.js";
 
 const app = express();
 dotenv.config();
